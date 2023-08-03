@@ -365,7 +365,7 @@ label{
     .fa-bars{
         display: unset !important;
         font-size: 30px;
-        margin-left: 200px;
+        margin-left: 300px;
     }
     nav{
         flex-direction: column;
@@ -378,42 +378,79 @@ label{
     .brand{
         display: flex;
         gap: 10px;
+        
     }
     .join-btn{
-        width: 220px;
+        width: 350px;
          
     }
     .background-area{
         background-position: top;
-        height: 70vh;
+        height: 100vh;
         background-attachment: unset;
     }
     
     .intro-box h1{
         font-size: 41px !important;
-        padding-right: 150px;
-        margin-top: 85px !important;
+        padding-right: -200px;
+        margin-top: 95px !important;
     }
     .intro-box h3{
-        font-size: 20px !important;
-        padding-right: 150px;
-        width: 100%;
+        font-size: 25px !important;
+        margin-left: 25px !important;
+        width: 70%;
+        
 
     }
     
     .second-btn{
         background-position: top;
         background-attachment: unset;
-        margin-right: 120px;
+        margin-left: 10px;
+    }
+
+    section{
+        margin-top: 200px !important;
     }
     .first-article{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+   
     .leftimage{
         max-width: 100% !important;
+        margin-right: 620px !important;
+        margin-top: -133px !important;
     }
+    .text-box h2{
+        width: 100% !important;
+        margin-left: -130px !important;
+        text-align: center;
+        margin-top: 250px;
+    }
+    .text-box p{
+        font-size: 25px;
+        width: 350px;
+        margin-left: -205px;
+    }
+    .text-box button{
+        margin-left: -150px;
+    }
+    .text-box{
+        margin-left: -280px;
+    }
+    .third{
+        margin-top: 250px !important;
+    }
+    .rightimage{
+        max-width: 60%;
+        margin-right: 730px;
+    }
+    .facilities{
+        margin-top: 5000px;
+    }
+   
 }
 
 
@@ -586,7 +623,7 @@ label{
 
 }
 .membership h1{
-    font-size: 65px;
+    font-size: 55px !important;
     text-align: center;
 }
 .membership p{
@@ -600,14 +637,14 @@ label{
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
-    padding-top: 450px;
+    padding-top: 400px;
     
 }
 
-.box-silver{
+.box-silver, .box-gold, .box-platinum{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 2px solid black;
     background-color: white;
     z-index: 888;
     width: 400px;
@@ -618,14 +655,106 @@ label{
     
 
 }
-.box-silver h5{
+.box-silver, .box-gold, .box-platinum h5{
     color: black !important;
     padding-top: 25px;
 
 }
-.box-silver h1{
+
+.box-silver h3{
     color: black !important;
-    font-size: 50px;
-    bottom: 600px;
+    font-size: 55px !important;
+    padding-top: 10px;
     
+}
+
+.box-silver p {
+    padding-top: 15px;
+}
+.box-silver span{
+    font-size: 10px;
+    
+}
+.box-silver button{
+    width: 300px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    background-color: #C4306B;
+    color: white;
+
+}
+.box-silver button:hover{
+    opacity: 0.5;
+    transition: 0.7s;
+}
+
+
+/* ///// */
+
+
+.box-gold h3 {
+    color: black !important;
+    font-size: 55px !important;
+    padding-top: 10px;
+}
+.month{
+    font-size: 12px !important;
+}
+.box-gold p {
+    font-size: 15px;
+}
+
+
+.box-gold span{
+    font-size: 10px;
+    padding-bottom: 10px !important;
+}
+.box-gold button{
+    width: 300px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    margin-top: -1px !important;
+    border: none;
+    background-color: #C4306B;
+    color: white;
+}
+.box-gold button:hover{
+    opacity: 0.5;
+    transition: 0.7s;
+}
+.benefit{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px !important;
+}
+
+/* ////// */
+.box-platinum h3{
+    color: black !important;
+    font-size: 55px !important;
+    padding-top: 10px;
+
+}
+.everymonth{
+    font-size: 12px;
+}
+.box-platinum p{
+    font-size: 15px;
+}
+   
+.box-platinum button{
+    width: 300px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    margin-top: 20px !important;
+    border: none;
+    background-color: #C4306B;
+    color: white;
+}
+.box-platinum button:hover{
+    opacity: 0.5;
+    transition: 0.7s;
 }
