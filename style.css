@@ -388,6 +388,9 @@ label{
     display: none !important;
 
 }
+.fa-comment{
+    display: none !important;
+}
 
 
 
@@ -808,6 +811,11 @@ sup{
         font-size: 30px;
         margin-left: 420px;
     }
+    .fa-comment{
+        display: unsest !important;
+        
+    }
+    
     nav{
         flex-direction: column;
         align-items: flex-start;
@@ -1060,6 +1068,72 @@ sup{
     }
     .forthirdpage{
         margin-top: 600px;
+    }
+
+    /* ///// */
+    .services h1{
+        font-size: 35px !important;
+        text-align: center;
+        
+    }
+    .services p{
+        margin-left: 95px;
+        width: 300px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .our-services{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        height: inherit;
+        width: 450px;
+    }
+    .services-photo img{
+        width: 100%;
+        
+    }
+    .services-text{
+        text-align: center;
+        margin-left: 5px;
+    }
+    .services-text button{
+        margin-bottom: 15px;
+        margin-left: 145px;
+    }
+    .forforthpage{
+        margin-top: 100px;
+    }
+
+
+    /* ///// */
+    .div-boxes{
+        padding-top: 500px !important;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        
+    }
+    .membership h1{
+        font-size: 35px !important;
+        width: 300px;
+        margin-left: 85px;
+    }
+    .membership p{
+        margin-left: 80px;
+        width: 300px;
+        font-size: 20px;
+
+    }
+    .forfifthpage{
+        margin-top: 100px;
+    }
+
+    /* ///// */
+    .login-form{
+        margin-top: 100px;
+        margin-left: 80px;
+        width: 350px;
     }
 }
     
