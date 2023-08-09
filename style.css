@@ -388,97 +388,6 @@ label{
     display: none !important;
 
 }
-@media screen and (max-width: 768px){
-    .fa-bars{
-        display: unset !important;
-        font-size: 30px;
-        margin-left: 300px;
-    }
-    nav{
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 15px;
-    }
-    ul{
-        display: none;
-    }
-    .brand{
-        display: flex;
-        gap: 10px;
-        
-    }
-    .join-btn{
-        width: 350px;
-         
-    }
-    .background-area{
-        background-position: top;
-        height: 100vh;
-        background-attachment: unset;
-    }
-    
-    .intro-box h1{
-        font-size: 41px !important;
-        padding-right: -200px;
-        margin-top: 95px !important;
-    }
-    .intro-box h3{
-        font-size: 25px !important;
-        margin-left: 25px !important;
-        width: 70%;
-        
-
-    }
-    
-    .second-btn{
-        background-position: top;
-        background-attachment: unset;
-        margin-left: 10px;
-    }
-
-    section{
-        margin-top: 200px !important;
-    }
-    .first-article{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-   
-    .leftimage{
-        max-width: 100% !important;
-        margin-right: 620px !important;
-        margin-top: -133px !important;
-    }
-    .text-box h2{
-        width: 100% !important;
-        margin-left: -130px !important;
-        text-align: center;
-        margin-top: 250px;
-    }
-    .text-box p{
-        font-size: 25px;
-        width: 350px;
-        margin-left: -205px;
-    }
-    .text-box button{
-        margin-left: -150px;
-    }
-    .text-box{
-        margin-left: -280px;
-    }
-    .third{
-        margin-top: 250px !important;
-    }
-    .rightimage{
-        max-width: 60%;
-        margin-right: 730px;
-    }
-    .facilities{
-        margin-top: 5000px;
-    }
-   
-}
 
 
 
@@ -888,3 +797,269 @@ sup{
     cursor: pointer;
     text-decoration: underline !important;
 }
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .fa-bars{
+        display: unset !important;
+        font-size: 30px;
+        margin-left: 420px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+    ul{
+        display: none;
+    }
+    .brand{
+        display: flex;
+        gap: 10px;
+        
+    }
+    .join-btn{
+        width: 450px;
+         
+    }
+    .background-area{
+        background-position: top;
+        height: 100vh;
+        background-attachment: unset;
+    }
+    
+    .intro-box h1{
+        font-size: 41px !important;
+        padding-right: -200px;
+        margin-top: 95px !important;
+    }
+    .intro-box h3{
+        font-size: 25px !important;
+        margin-left: 25px !important;
+        width: 70%;
+        
+
+    }
+
+    .second{
+        margin-top: -115px !important;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .leftimage{
+        background: cover;
+        width: 400px;
+        margin-left: -50px !important;
+    }
+    .text-box-first{
+        margin-top: 2px;
+        margin-right: 25px !important;
+        width: 400px;
+    }
+    .text-box-first h2{
+        margin-left: 240px;
+        font-size: 25px;
+
+    }
+    .text-box-first p{
+        margin-left: 220px;
+        width: 280px;
+        margin-top: -25px;
+        text-align: center;
+    }
+    .text-box-first button{
+        margin-left: 270px;
+        margin-top: -25px;
+        font-size: 13px;
+        padding: 5px;
+    }
+    .rightimage{
+        margin-top: -55px;
+        width: 400px;
+        margin-right: 350px;
+    }
+    .second-textbox{
+        margin-right: 5px;
+    }
+    .second-textbox h2{
+        margin-top: 175px;
+        margin-left: 380px !important;
+        font-size: 25px;
+    }
+    .second-textbox p{
+        margin-left: 380px;
+        width: 280px;
+        margin-top: -25px;
+        text-align: center;
+    }
+    .second-textbox button{
+        margin-left: 430px;
+        margin-top: -25px;
+        font-size: 13px;
+        padding: 5px;
+    }
+    .facilities{
+        margin-top: 1380px;
+    }
+    .text-facilities{
+        margin-left: -255px;
+        
+    }
+    .text-facilities h2{
+        margin-left: -255px;
+        font-size: 25px;
+        
+    }
+    .text-facilities p{
+        margin-left: -280px;
+    }
+    /* foooter */
+    footer{
+        margin-top: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-info{
+        font-size: 25px;
+        text-align: center;
+    }
+    .icons{
+        display: flex;
+        margin-left: 75px !important;
+    }
+    .author{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    .middle h5{
+        width: 300px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: 45px;
+    }
+    .middle p{
+        text-align: center;
+        margin-left: 45px;
+    }
+    .full-name{
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        text-align: center;
+    }
+    .search h2{
+        margin-top: 55px;
+        font-size: 35px;
+        margin-left: 45px;
+    }
+    .search-menu{
+        text-align: center;
+        color: gray !important;
+        font-weight: lighter !important;
+    }
+    .safety{
+        margin-top: 45px;
+        
+    }
+    .safety a{
+        font-size: 25px !important;
+    }
+}
+
+
+/* about */
+
+@media screen and (max-width: 768px){
+    
+    .second-page h1{
+        font-size: 30px !important;
+        width: 265px;
+        margin-left: 120px;
+        
+
+    }
+    .second-page p{
+        margin-left: 80px !important;
+        width: 350px;
+        margin-top: 15px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .whydofitness {
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    .fitnesstext h2{
+        margin-top: -105px;
+        text-align: center;
+    }
+    .fitnesstext p{
+        text-align: center;
+    }
+    .rightfit-img{
+        margin-left: -75px;
+    }
+    .leftfit,
+    .rightfit {
+        width: 100%;
+    }
+
+    
+
+    .forsecondpage{
+        margin-top: 1000px;
+    }
+
+    /* ////// */
+   .trainingfloortext{
+        margin-top: 5px;
+   }
+   .trainingfloortext h2{
+        margin-left: 85px;
+   }
+   .trainingfloortext p{
+        margin-right: 35px !important;
+        text-align: center;
+        width: 350px;
+       
+   }
+    .lappool{
+        margin-top: 230px !important;
+        width: 100%;
+    }
+    .lappool-text{
+        margin-top: 5px;
+    
+    
+    }
+    .lappool-text h2{
+        align-items: center !important;
+        margin-left: 350px;
+        width: 400px;
+        
+    }
+    .lappool-text p{
+        margin-left: 220px;
+        width: 350px;
+        text-align: center;
+    }
+    .membersarea{
+        margin-top: 1400px;
+    }
+    .text-members p{
+        margin-left: 65px !important;
+        width: 350px;
+    }
+    .forthirdpage{
+        margin-top: 600px;
+    }
+}
+    
